@@ -33,8 +33,6 @@ st.title('NY TAXI: IS THAT A FAIR FARE?')
 date = st.date_input('Date', datetime.date(2019, 7, 6))
 time = st.time_input('Time', datetime.time(8, 45))
 
-st.write('Date:', date, 'Time:', time)
-
 pickup_longitude = st.text_input('Pickup Longitude', value=40.7805414)
 pickup_latitude = st.text_input('Pickup Latitude', value=-73.968285)
 
