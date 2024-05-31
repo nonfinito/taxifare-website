@@ -17,6 +17,9 @@ import requests
 
 st.title('NY TAXI: IS THAT A FAIR FARE?')
 
+image_url = "https://www.lalibre.be/resizer/v2/QZHIODQSGBHJBMENEKXBUF2SZ4.jpg?auth=d25eed855947b65398321fc345c418b0f38d040f24ca2fe21493bb4d5a340fe3&width=1200&height=800&quality=85&focal=470%2C235"
+image = Image.open(requests.get(image_url, stream=True).raw)
+
 # '''
 # ## Here we would like to add some controllers in order to ask the user to select the parameters of the ride
 
