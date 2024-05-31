@@ -95,7 +95,6 @@ response = requests.get(url, params=X_pred)
 
 prediction = response.json()
 
-## Finally, we can display the prediction to the user.
 tarif = prediction['fare']
 rounded_tarif = round(tarif, 2)
 
