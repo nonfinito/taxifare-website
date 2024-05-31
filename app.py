@@ -62,7 +62,7 @@ st.map(map_data)
 # 🤔 How could we call our API ? Off course... The `requests` package 💡
 # '''
 
-url = 'https://taxifare-nonfinito-6n3gdpz53a-ew.a.run.app/predict'
+url = 'https://taxifare.lewagon.ai/predict'
 
 if url == 'https://taxifare.lewagon.ai/predict':
 
