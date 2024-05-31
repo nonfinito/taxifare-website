@@ -17,8 +17,7 @@ import requests
 
 st.title('NY TAXI: IS THAT A FAIR FARE?')
 
-image = Image.open('taxi.jpg')
-st.image(image, caption='NY TAXI', use_column_width=True)
+st.image(taxi.jpg, caption='NY TAXI', use_column_width=True)
 
 # '''
 # ## Here we would like to add some controllers in order to ask the user to select the parameters of the ride
